@@ -18,5 +18,5 @@ class Director:
 
 
 war_q = Director("https://catfact.ninja",
-                 {'accept': 'application/json', 'X-CSRF-TOKEN': 'JbtMRoEKlMjqpLGppVDBmcnauRAhRnNHCSEOt0Pk'}, "/facts")
+                 {'accept': 'application/json', 'X-CSRF-TOKEN': 'JbtMRoEKlMjqpLGppVDBmcnauRAhRnNHCSEOt0Pk'}, "/fact")
 war_q.build()

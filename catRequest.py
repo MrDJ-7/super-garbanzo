@@ -13,5 +13,6 @@ class CatRequest(Request.MyRequest):
         self.method_name = method_name
         r = requests.get(self.base_url + self.method_name,
                          headers=self.header)
-        # print(r.json())
+        print(r)
+        print(r.json())
         return r.json()
